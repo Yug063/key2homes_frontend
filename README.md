@@ -30,10 +30,13 @@ The website is deployed at [Key2Homes](https://main--key2homes.netlify.app/)
 
 The backend repo link here [key2homes_backend](https://github.com/Yug063/key2homes_backend)
 
-## Clone and Start
+## ▶ Getting Started with frontend
+1) Clone the key2homes_frontend repository
+2) Run `npm install`
+3) To start the project, run `npm start`
 
-To clone and run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/key2homes.git
+## ▶ Getting Started with backend
+1) Clone the key2homes_backend repository
+2) Run `npm install`
+3) To start the project, run `npm start`
+4) create dotenv file and paste required specifications

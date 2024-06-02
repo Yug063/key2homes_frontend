@@ -33,7 +33,7 @@ The backend repo link here [key2homes_backend](https://github.com/Yug063/key2hom
 ## ▶ Getting Started with frontend
 1) Clone the key2homes_frontend repository
 2) Run `npm install`
-3) To start the project, run `npm start`
+3) To start the project, run `npm run dev`
 
 ## ▶ Getting Started with backend
 1) Clone the key2homes_backend repository

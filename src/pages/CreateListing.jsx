@@ -132,8 +132,8 @@ export default function CreateListing() {
         return setError("Discount price must be lower than regular price");
       setLoading(true);
       setError(false);
-      const res = await fetch(
-        "https://key2homes-backend.onrender.com/api/listing/create",
+      const res =
+        await ("https://key2homes-backend.onrender.com/api/listing/create",
         {
           method: "POST",
           headers: {
@@ -143,8 +143,7 @@ export default function CreateListing() {
             ...formData,
             userRef: currentUser._id,
           }),
-        }
-      );
+        });
       const data = await res.json();
       setLoading(false);
       if (data.success === false) {

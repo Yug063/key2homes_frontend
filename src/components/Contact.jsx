@@ -12,7 +12,7 @@ export default function Contact({ listing }) {
     const fetchLandlord = async () => {
       try {
         const res = await fetch(
-          `https://key2homes-backend.onrender.comhttps://key2homes-backend.onrender.comhttps://key2homes-backend.onrender.comhttps://key2homes-backend.onrender.comhttps://key2homes-backend.onrender.com/api/user/${listing.userRef}`
+          `https://key2homes-backend.onrender.com/api/user/${listing.userRef}`
         );
         const data = await res.json();
         setLandlord(data);

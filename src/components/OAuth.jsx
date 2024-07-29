@@ -15,7 +15,7 @@ export default function OAuth() {
       const result = await signInWithPopup(auth, provider);
 
       const res = await fetch(
-        "https://key2homes-backend.onrender.comhttps://key2homes-backend.onrender.com/api/auth/google",
+        "https://key2homes-backend.onrender.com/api/auth/google",
         {
           method: "POST",
           headers: {

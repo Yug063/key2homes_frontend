@@ -133,7 +133,7 @@ export default function CreateListing() {
       setLoading(true);
       setError(false);
       const res =
-        await ("https://key2homes-backend.onrender.com/api/listing/create",
+        await fetch("https://key2homes-backend.onrender.com/api/listing/create",
         {
           method: "POST",
           headers: {
@@ -144,7 +144,6 @@ export default function CreateListing() {
             userRef: currentUser._id,
           }),
         });
-        console.log('RESULT after submit listing:', res);
       const data = await res.json();
       setLoading(false);
       if (data.success === false) {

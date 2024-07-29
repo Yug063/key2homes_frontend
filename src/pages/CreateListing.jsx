@@ -144,6 +144,7 @@ export default function CreateListing() {
             userRef: currentUser._id,
           }),
         });
+        console.log('RESULT after submit listing:', res);
       const data = await res.json();
       setLoading(false);
       if (data.success === false) {
